@@ -28,7 +28,6 @@ irc_port = 6697
 use_ssl = true
 oper_cmd = Array.new()   # Place oper authentication commands in a file called .oper_cmd
 autojoin_channels = ["#ucsc", "#vending_machines"]
-#autosend_cmd = '/samode #ucsc +o rms
 autosend_cmd = ["samode #ucsc +o #{bot_nickname}", "samode #vending_machines +o #{bot_nickname}", "samode #vending_machines +sp"]
 
 
@@ -63,11 +62,9 @@ We in the free software movement don't think of the open source camp as an enemy
 FIN
 
 ms_rhetoric = <<-FIN
-
 I notice you are referring to proprietary software, MICRO$OFT is an atrocious company that has committed many crimes against humanity and continues to impede on individuals' freedoms.
 
-As a free software advocate I don't just ask you, I IMPLORE YOU to use free software such as the GNU Operating System which is made up of a complete set of a collection of software and
-tools made primarily by the Free Software Foundation and other free software developers in combination with the Linux Kernel, which is a very miniscule component of the whole GNU System.
+As a free software advocate I don't just ask you, I IMPLORE YOU to use free software such as the GNU Operating System which is made up of a complete set of a collection of software and tools made primarily by the Free Software Foundation and other free software developers in combination with the Linux Kernel, which is a very miniscule component of the whole GNU System.
 
 Let this be the dawning of a new age, a GNU DAWN!
 FIN
