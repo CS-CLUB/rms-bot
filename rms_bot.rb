@@ -85,6 +85,7 @@ bot = Cinch::Bot.new do
     c.channels = autojoin_channels
     c.realname = bot_name
     c.nick = bot_nickname
+    c.user = bot_nickname
   end
 
   helpers do
