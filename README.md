@@ -6,6 +6,7 @@ What is RMS Bot?
 
 The official sentient IRC bot, RMS, of the UOIT/DC Computer Science Club
 
+
 Contribute
 -----------
 
@@ -18,3 +19,11 @@ Ruby gems used.
 Cinch is a multi-threaded event driven IRC bot building framework that is
 based on event to initiate actions. It is recommened that you become 
 familiar with the [Cinch API Documentation](http://rubydoc.info/gems/cinch/frames). 
+
+
+Copyright (Really Copyleft)
+---------------------------
+
+All of the source code in this repository, where the copyright notice is indicated 
+in the source code, is licensed under the 
+[GNU General Public License, Version 3](http://www.gnu.org/licenses/gpl.html)
